@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#ball{
+    margin: 100px auto;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+}

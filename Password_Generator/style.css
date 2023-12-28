@@ -1,0 +1,37 @@
+body{
+    background: #000;
+}
+
+.container{
+    border: 1px solid cyan;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px;
+    width: 20em;
+}
+
+.container h1{
+    color: cyan;
+    margin: auto 5px;
+    padding: 25px 5px;
+}
+
+.container input{
+    padding: 5px;
+}
+
+.copy{
+    background-color: rgb(36, 36, 255);
+    border: none;
+    color: white;
+    margin-left: -5px;
+    padding: 6.5px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.gen{
+    padding: 5px;
+    margin: 10px 10em;
+    cursor: pointer;
+}

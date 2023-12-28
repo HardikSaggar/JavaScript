@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(255, 255, 255); */
+    background: linear-gradient(311deg, rgba(255, 255, 255, 1) 0%, rgb(196, 222, 255) 32%, rgb(159, 201, 255) 50%, rgba(234, 255, 255, 1) 66%, rgba(255, 255, 255, 1) 100%);
+    transition: all 0.3s ease-in-out;
+}
+
+body.dark {
+    background: linear-gradient(311deg, rgb(0, 0, 0) 0%, rgb(0, 20, 46) 32%, rgb(12, 0, 41) 50%, rgb(0, 8, 8) 66%, rgb(16, 1, 1) 100%);
+    /* background: black; */
+
+}
+
+.toggle {
+    position: relative;
+    /* border-radius: 50%; */
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.405);
+    height: 130px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    background: lightblue;
+    border-radius: 50%;
+    top: 9%;
+    left: 61px;
+    transform: translate(-50%);
+    transition: all .3s ease-in-out;
+}
+
+.toggle.active::before {
+    left: calc(80%);
+    background-color: black;
+}

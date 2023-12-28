@@ -1,0 +1,39 @@
+#reset {
+    width: 30px;
+    height: 19px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+#box {
+    margin: 100px auto;
+    height: 20px;
+    width: 15px;
+    background: red;
+    /* border-top: 4px solid gold; */
+}
+
+#box:hover {
+    box-shadow: 0px 0px 30px grey;
+    cursor: pointer;
+}
+
+#box2 {
+
+    margin: auto;
+    height: 20px;
+    width: 15px;
+    background: red;
+    /* border-top: 4px solid gold; */
+}
+
+#box2:hover {
+    box-shadow: 0px 0px 30px grey;
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: -80px;
+    text-align: center;
+}
